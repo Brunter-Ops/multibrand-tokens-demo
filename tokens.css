@@ -169,6 +169,8 @@
   --ramp-g2-1000: #292923;
   --ramp-g2-1050: #1f1e1a;
   --ramp-g2-1100: #131210;
+  --ramp-g3-300: #c9a55a;
+  --ramp-g3-600: #86671d;
   --ramp-b1-50: #f9fcff;
   --ramp-b1-100: #f2f8fd;
   --ramp-b1-150: #e6f1fb;
@@ -505,8 +507,8 @@
   --status-warning-300: var(--orange-300);
   --status-warning-700: var(--orange-700);
   --status-warning-900: var(--orange-900);
-  --status-warning-light: var(--orange-50);
   --status-warning-stroke: var(--orange-200);
+  --status-warning-light: var(--orange-50);
   --status-warning-accent: var(--orange-500);
   --alias-link-default: var(--blue-500);
   --alias-link-hover: var(--blue-550);
@@ -545,6 +547,8 @@
   --type-body-small-line-height: var(--line-height-16);
   --type-utility-link-size: var(--font-size-14);
   --type-utility-link-line-height: var(--line-height-20);
+  --brand-ai-icon: var(--chetwode-500);
+  --brand-ai-dark-icon: var(--chetwode-400);
   --brand-text: var(--brand-500);
   --alias-link-disabled: var(--neutral-650);
   --color-surface-navmain: var(--neutral-150);
@@ -871,6 +875,8 @@
   --type-headline-h4-line-height: var(--line-height-28);
   --type-headline-h5-line-height: var(--line-height-24);
   --type-body-large-line-height: var(--line-height-26);
+  --brand-ai-icon: var(--ramp-g3-600);
+  --brand-ai-dark-icon: var(--ramp-g3-300);
   --color-surface-navmain: var(--neutral-50);
   --surface-sidenav-hover: var(--neutral-200);
   --surface-sidenav-text-defauilt: var(--neutral-1100);
@@ -1063,11 +1069,6 @@
   --motion-scale-press: 0.97;
   --motion-scale-enter: 0.95;
   --color-surface-table-data-cell-border-focus: var(--denim-500);
-  --color-ai-surface: var(--chetwode-100);
-  --color-ai-surface-hover: var(--chetwode-200);
-  --color-ai-icon: var(--chetwode-500);
-  --color-ai-text-default: var(--chetwode-600);
-  --color-ai-text-hover: var(--chetwode-700);
   --color-chart-swatch-1: var(--azure-500);
   --color-chart-swatch-2: var(--azure-200);
   --color-chart-swatch-3: var(--azure-700);
@@ -1094,6 +1095,10 @@
   --color-chart-swatch-24: var(--orange-haze-300);
   --color-chart-swatch-25: var(--orange-haze-800);
   --color-chart-swatch-26: var(--orange-haze-600);
+  --color-ai-surface: var(--chetwode-100);
+  --color-ai-surface-hover: var(--chetwode-200);
+  --color-ai-text-default: var(--chetwode-600);
+  --color-ai-text-hover: var(--chetwode-700);
   --color-badge-default-filled-surface: var(--chetwode-100);
   --color-badge-default-filled-text: var(--chetwode-600);
   --color-badge-default-filled-icon: var(--chetwode-600);
@@ -1196,15 +1201,15 @@
   --font-body-small-letter-spacing: var(--type-body-small-letter-spacing);
   --font-utility-link-weight-style: var(--typography-font-weight-semibold);
   --font-utility-link-letter-spacing: var(--type-utility-link-letter-spacing);
+  --color-text-input-label: var(--neutral-1050);
+  --color-text-input-value: var(--neutral-1050);
+  --color-text-input-disabled: var(--neutral-650);
+  --color-text-input-placeholder: var(--neutral-900);
   --color-text-link-pressed: var(--alias-link-pressed);
   --color-text-link-default: var(--alias-link-default);
   --color-text-link-hover: var(--alias-link-hover);
   --color-text-link-visited: var(--alias-link-visited);
   --color-text-link-disabled: var(--neutral-650);
-  --color-text-input-label: var(--neutral-1050);
-  --color-text-input-value: var(--neutral-1050);
-  --color-text-input-disabled: var(--neutral-650);
-  --color-text-input-placeholder: var(--neutral-900);
   --color-text-state-warnings: var(--status-warning-700);
   --color-text-primary: var(--neutral-1050);
   --color-text-secondary: var(--neutral-750);
@@ -1346,6 +1351,7 @@
   --color-icon-status-warning: var(--status-warning-700);
   --color-icon-status-error: var(--status-error-accent);
   --color-icon-secondary: var(--neutral-750);
+  --color-ai-icon: var(--brand-ai-icon);
   --color-stroke-default: var(--neutral-450);
   --color-stroke-light: var(--neutral-350);
   --color-stroke-brand: var(--brand-500);
@@ -1503,7 +1509,6 @@
 [data-theme="dark"] {
   --color-ai-surface: var(--chetwode-900);
   --color-ai-surface-hover: var(--chetwode-800);
-  --color-ai-icon: var(--chetwode-400);
   --color-ai-text-default: var(--chetwode-300);
   --color-badge-default-filled-surface: var(--chetwode-900);
   --color-badge-default-filled-text: var(--chetwode-400);
@@ -1574,13 +1579,13 @@
   --color-datepicker-holiday-surface: var(--orange-haze-900);
   --color-datepicker-holiday-text: var(--orange-haze-300);
   --color-file-upload-icon: var(--azure-300);
+  --color-text-input-label: var(--neutral-100);
+  --color-text-input-value: var(--neutral-100);
+  --color-text-input-placeholder: var(--neutral-250);
   --color-text-link-pressed: var(--link-dark-pressed);
   --color-text-link-default: var(--link-dark-default);
   --color-text-link-hover: var(--link-dark-hover);
   --color-text-link-visited: var(--link-dark-visited);
-  --color-text-input-label: var(--neutral-100);
-  --color-text-input-value: var(--neutral-100);
-  --color-text-input-placeholder: var(--neutral-250);
   --color-text-state-success: var(--status-success-300);
   --color-text-state-warnings: var(--status-warning-300);
   --color-text-state-error: var(--status-error-300);
@@ -1704,6 +1709,7 @@
   --color-icon-status-warning: var(--status-warning-300);
   --color-icon-status-error: var(--status-error-300);
   --color-icon-secondary: var(--neutral-400);
+  --color-ai-icon: var(--brand-ai-dark-icon);
   --color-stroke-default: var(--neutral-700);
   --color-stroke-light: var(--neutral-800);
   --color-stroke-brand: var(--brand-350);
@@ -1723,6 +1729,7 @@
   --color-navigation-active: var(--brand-350);
   --color-navigation-hover: var(--neutral-950);
   --color-navigation-accent: var(--brand-dark-primary);
+  --color-navigation-dark-accent: var(--brand-350);
   --color-navigation-selected: var(--brand-dark-subtle);
   --color-navigation-text-selected: var(--brand-350);
   --color-badge-grass-outline-icon: var(--status-success-300);
