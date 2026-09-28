@@ -1,0 +1,37 @@
+{
+  "brand-a": {
+    "brand-logo": "default",
+    "side-nav style": "DarkOnLight",
+    "default-shape": "default"
+  },
+  "brand-b": {
+    "brand-logo": "default",
+    "side-nav style": "LightOnDark",
+    "default-shape": "default"
+  },
+  "brand-c": {
+    "brand-logo": "default",
+    "side-nav style": "LightOnDark",
+    "default-shape": "default"
+  },
+  "brand-d": {
+    "brand-logo": "default",
+    "side-nav style": "LightOnDark",
+    "default-shape": "default"
+  },
+  "brand-e": {
+    "brand-logo": "default",
+    "side-nav style": "LightOnDark",
+    "default-shape": "default"
+  },
+  "brand-f": {
+    "brand-logo": "brand-f",
+    "side-nav style": "LightOnDark",
+    "default-shape": "default"
+  },
+  "brand-g": {
+    "brand-logo": "default",
+    "side-nav style": "DarkOnLight",
+    "default-shape": "sharp"
+  }
+}
